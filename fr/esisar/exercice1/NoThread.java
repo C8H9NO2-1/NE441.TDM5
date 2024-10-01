@@ -12,7 +12,7 @@ public class NoThread {
         int N = 2_000_000_000;
         double result = 0;
 
-        for (double i = 1; i < N; i++) {
+        for (double i = 1; i <= N; i++) {
             result += 1 / Math.pow(i, 2);
         }
 
